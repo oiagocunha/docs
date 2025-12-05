@@ -52,14 +52,14 @@ A nInA responderá no mesmo espaço, te mencionando.
 
 ---
 
-## 💡 Exemplos de Uso (Casos Reais)
+## 💡 Exemplos de Uso (Perguntas e Respostas)
 
-| Cenário | Documento(s) | Pergunta Exemplo | Objetivo |
-|--------|---------------|------------------|----------|
-| Princípios de Qualidade | Política de Qualidade de Dados | “Quais são os princípios orientadores da política?” | Resumo claro das diretrizes. |
-| Padrões de Metadados | Norma de Uso de Metadados Institucionais | “Quais são os campos de metadados da FIEC?” | Obter a lista e descrições completas. |
-| Criação de Termos | Modelo de Formulário + Norma de Glossário | “Quero criar um termo. Como faço?” | Entender fluxo e campos necessários. |
-| Ciclo de Vida do Dado | Política de Ciclo de Vida de Dados | “O que é ciclo de vida do dado?” | Esclarecer conceitos e etapas. |
+| Pergunta | Resposta Esperada | Documento Base |
+|----------|-------------------|----------------|
+| "Quais são os princípios orientadores da política de qualidade?" | Resumo claro dos princípios de qualidade de dados | Política de Qualidade de Dados |
+| "Quais são os campos de metadados da FIEC?" | Lista completa e descrições dos campos de metadados | Norma de Uso de Metadados Institucionais |
+| "Como faço para criar um novo termo no glossário?" | Explicação do fluxo e campos necessários para criação | Modelo de Formulário + Norma de Glossário |
+| "O que é ciclo de vida do dado?" | Definição conceitual e descrição das etapas | Política de Ciclo de Vida de Dados |
 
 ---
 
@@ -78,65 +78,31 @@ Orquestra workflows e faz parte da infraestrutura de deploy.
 
 ## 🛑 Políticas e Diretrizes
 
-### Política de Privacidade
-A nInA coleta apenas dados essenciais para funcionamento e segurança:  
-- perguntas, respostas, registros de uso, logs técnicos.  
-Tudo armazenado de forma segura no ambiente FIEC + Google Workspace.  
-Não há compartilhamento externo, exceto para operação essencial ou exigência legal.  
-O usuário pode solicitar informações sobre seus dados conforme legislação aplicável.
-
----
-
-### Termos de Uso
-Ao utilizar a nInA, o usuário concorda em:
-- Usar o serviço de forma responsável e alinhada às políticas internas.  
-- Não realizar usos maliciosos (exploração, prompts hostis, spam, etc).
-
-O serviço é fornecido **"como está"**, podendo haver instabilidades ou manutenções.
-
----
-
-### Diretrizes da Comunidade
-- Ferramenta de uso **interno**.  
-- Interações devem ser profissionais e construtivas.  
-- Proibido: conteúdos ofensivos, ilegais, uso pessoal, spam ou exploração de falhas.  
-- Problemas devem ser reportados ao suporte.
+| Categoria | Descrição | Pontos-Chave |
+|-----------|-----------|--------------|
+| **Política de Privacidade** | A nInA coleta apenas dados essenciais para funcionamento e segurança | • Perguntas, respostas, registros de uso, logs técnicos<br>• Armazenamento seguro no ambiente FIEC + Google Workspace<br>• Não há compartilhamento externo, exceto para operação essencial ou exigência legal<br>• Usuário pode solicitar informações sobre seus dados conforme legislação aplicável |
+| **Termos de Uso** | Ao utilizar a nInA, o usuário concorda em usar o serviço de forma responsável | • Usar o serviço de forma responsável e alinhada às políticas internas<br>• Não realizar usos maliciosos (exploração, prompts hostis, spam, etc)<br>• Serviço fornecido **"como está"**, podendo haver instabilidades ou manutenções |
+| **Diretrizes da Comunidade** | Regras de conduta para uso da ferramenta | • Ferramenta de uso **interno**<br>• Interações devem ser profissionais e construtivas<br>• Proibido: conteúdos ofensivos, ilegais, uso pessoal, spam ou exploração de falhas<br>• Problemas devem ser reportados ao suporte |
 
 ---
 
 ## ⚠️ Casos de Erro
 
-### “Não obtive uma resposta”
-**Causa:** A nInA não foi mencionada em grupo.  
-**Solução:** Sempre use **@nInA** em espaços.
-
-### “A resposta é genérica ou vaga”
-**Causa:** Pergunta muito ampla ou fora do escopo.  
-**Solução:** Refine trazendo termos dos documentos internos.
-
-### “Erro de rede / serviço indisponível”
-**Causa:** Instabilidade do Google Chat ou backend.  
-**Solução:** Tente novamente depois. Persistindo, contate o suporte.
+| Erro | Causa | Solução |
+|------|-------|----------|
+| Não obtive uma resposta | A nInA não foi mencionada em grupo | Sempre use **@nInA** em espaços |
+| A resposta é genérica ou vaga | Pergunta muito ampla ou fora do escopo | Refine trazendo termos dos documentos internos |
+| Erro de rede / serviço indisponível | Instabilidade do Google Chat ou backend | Tente novamente depois. Persistindo, contate o suporte |
 
 ---
 
 ## 🚨 Limitações Conhecidas
 
-### 1. Foco Exclusivo em Documentos Internos
-A nInA não responde temas externos.  
-**Workaround:** Formule perguntas referenciando documentos internos.
-
-### 2. Linguagem Natural com Variabilidade
-Perguntas muito vagas ou com gírias podem afetar a interpretação.  
-**Workaround:** Use linguagem clara e direta.
-
-### 3. Escopo do MVP (Data Governance)
-Atualmente especializada em:  
-- Metadados  
-- Glossário  
-- Ciclo de Vida  
-- Qualidade de Dados  
-**Próximos passos:** expansão para novos temas e agentes especializados.
+| Limitação | Descrição | Workaround / Próximos Passos |
+|-----------|-----------|------------------------------|
+| Foco Exclusivo em Documentos Internos | A nInA não responde temas externos | Formule perguntas referenciando documentos internos |
+| Linguagem Natural com Variabilidade | Perguntas muito vagas ou com gírias podem afetar a interpretação | Use linguagem clara e direta |
+| Escopo do MVP (Data Governance) | Atualmente especializada em: Metadados, Glossário, Ciclo de Vida e Qualidade de Dados | Expansão para novos temas e agentes especializados |
 
 ---
 
