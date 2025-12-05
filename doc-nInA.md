@@ -68,7 +68,7 @@ A nInA responderá no mesmo espaço, te mencionando.
 ### Google Chat  
 Canal principal de interação.
 
-### Google Gemini Enterprise  
+### OPENAI 
 Motor de IA generativa, com segurança e IAM corporativo.
 
 ### N8N Community  
@@ -125,7 +125,7 @@ Orquestra workflows e faz parte da infraestrutura de deploy.
 - Rastreabilidade total a cada alteração
 
 ### Performance
-- Gemini Enterprise garante desempenho alto, segurança e custo controlado.
+- OpenAI garante desempenho alto, segurança e custo controlado.
 
 ---
 
