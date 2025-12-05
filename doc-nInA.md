@@ -31,6 +31,7 @@ A nInA está integrada ao Google Chat e pode ser usada em **grupos** ou **conver
 
 A nInA responderá no mesmo espaço, te mencionando.
 
+![Como usar como DM](Espaco.gif)
 ---
 
 ### 👤 Uso em Conversa Individual (DM)
@@ -49,6 +50,8 @@ A nInA responderá no mesmo espaço, te mencionando.
 #### Como usar no DM
 - Basta enviar sua pergunta.
 - Não precisa mencionar @nInA em conversas privadas.
+
+![Como usar como DM](DM.gif)
 
 ---
 
