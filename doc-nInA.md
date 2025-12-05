@@ -3,7 +3,11 @@ Agente de IA do Sistema FIEC
 
 ## 📌 Introdução
 
-A **nInA** é um assistente virtual inteligente criado para fornecer respostas rápidas, consistentes e baseadas nas políticas, normas e documentos internos do Sistema FIEC.
+A **nInA** (Núcleo de Inteligência e Navegação Automatizada) é uma agente de IA e assistente virtual inteligente desenvolvida para ser uma fonte de consulta rápida e consistente de informações.
+ 
+Atualmente a nInA pode responder sobre as **políticas, normas e documentos internos** do Sistema FIEC.
+ 
+Em breve, a nInA terá sua capacidade expandida para conversar sobre qualquer coisa que você desejar.
 
 **Propósito:** Interpretar e explicar documentos internos, garantindo uniformidade e precisão.  
 **Motivação:** Reduzir dúvidas recorrentes e inconsistências de interpretação.  
@@ -66,19 +70,6 @@ A nInA responderá no mesmo espaço, te mencionando.
 
 ---
 
-## ⚙️ Integrações
-
-### Google Chat  
-Canal principal de interação.
-
-### OPENAI 
-Motor de IA generativa, com segurança e IAM corporativo.
-
-### N8N Community  
-Orquestra workflows e faz parte da infraestrutura de deploy.
-
----
-
 ## 🛑 Políticas e Diretrizes
 
 | Categoria | Descrição | Pontos-Chave |
@@ -108,27 +99,3 @@ Orquestra workflows e faz parte da infraestrutura de deploy.
 | Escopo do MVP (Data Governance) | Atualmente especializada em: Metadados, Glossário, Ciclo de Vida e Qualidade de Dados | Expansão para novos temas e agentes especializados |
 
 ---
-
-## 💻 Para Desenvolvedores / Time Técnico
-
-### Arquitetura (Visão Geral)
-- Frontend: Google Chat  
-- Orquestração: N8N Community (Docker Compose)  
-- IA: OpenAI
-
-### Treinamento e Atualização
-- Arquivos/documentos internos processados previamente.
-
-### APIs e Endpoints
-- Construída sobre infraestrutura Google e integrações compatíveis.
-
-### Deploy e Infraestrutura
-- Deploy via GitLab CI/CD  
-- Validação automática: `docker compose config`  
-- Rastreabilidade total a cada alteração
-
-### Performance
-- OpenAI garante desempenho alto, segurança e custo controlado.
-
----
-
