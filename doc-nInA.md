@@ -111,10 +111,7 @@ Orquestra workflows e faz parte da infraestrutura de deploy.
 ### Arquitetura (Visão Geral)
 - Frontend: Google Chat  
 - Orquestração: N8N Community (Docker Compose)  
-- IA: Google Gemini Enterprise
-
-### Modelos
-- Base IA totalmente fornecida pelo Gemini Enterprise.
+- IA: OpenAI
 
 ### Treinamento e Atualização
 - Arquivos/documentos internos processados previamente.
